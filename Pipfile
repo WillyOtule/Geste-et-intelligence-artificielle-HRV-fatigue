@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+matplotlib = "*"
+pandas = "*"
+jupyter = "*"
+autopep8 = "*"
+python-ctags = "*"
+
+[packages]
+tabulate = "*"
+wfdb = "*"
+bqplot = "*"
+pyfftw = "*"
+jupyterlab = "*"
+flask = "*"
+
+[requires]
+python_version = "3.7"
